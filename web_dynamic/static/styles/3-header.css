@@ -4,6 +4,20 @@ header {
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
 }
+#api_status {
+	width: 40px;
+	position: fixed;
+	top: 5%;
+	transform: translateY(-50%);
+	height: 40px;
+	border-radius: 50%;
+	background-color: #cccccc;
+	margin-right: 20px;
+	right: 30px;
+}
+#api_status.available {
+	background-color: #ff545f;
+}
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
